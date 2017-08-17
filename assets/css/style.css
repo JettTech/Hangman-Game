@@ -1,0 +1,76 @@
+/*************PS.. WE ARE ALLOWED TO JUST USE BOOTSTRAP... IF THAT HELPS!!!*********/
+* {
+	color: #202926;
+	/*	text-shadow: CAN WE USE THIS TO OUTLINE LETTERS!?! */
+	font-family:'VT323', monospace;
+	font-size: 32px;
+	letter-spacing: .5px; /*FIGURE OUT WHY NOT affecting the HTML?!*/
+	box-sizing: border-box;
+	text-align: left;
+		/*OTHER FONT (FAMILY) OPTIONS:*/
+		/*	font-family: 'Quicksand', sans-serif;*/
+		/*	font-family: 'Inconsolata', monospace;*/
+}
+
+body {
+	width: 100%;
+/*	font-size: 28px;*/
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.row {
+	margin-left: 20px;
+}
+
+#box-wrapper {
+	background-image: url(../images/mapTravelHangmanGame.jpeg);
+			/*No longer use this one: background-image: url("../images/skulls/skulls.png");*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat
+		/*	min-height: 100%;*/
+		/*	z-scale: 1;*/
+}
+
+.jumbotron {
+	background-color: transparent;
+	text-align: center;
+	width: 105%;
+	height: 100%;
+	margin: 0px;
+	padding-bottom: 300px;
+/*	font-size: 42px;*/
+}
+
+.page-header {
+	margin: 160px 0px -15px 3%;
+}
+
+.main-row {
+	margin-top: 100px;
+	margin-right: -58px;
+	padding-bottom: 0px;
+}
+
+.panel {
+	background-color: transparent;
+}
+
+/*@media screen(max-width: 1024px) and (min-width: 768px) {
+	#score {
+		float: right;
+		width: 100%;
+	}
+	
+	#guesses {
+		float: right;
+		width: 100%;
+	}	
+}*/
