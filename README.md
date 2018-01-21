@@ -1,2 +1,2 @@
 # Hangman-Game
-Javascript HW - Hangman Game
+ Travel Themed Hangman Game. Uses Javascript, HTML, and CSS.
